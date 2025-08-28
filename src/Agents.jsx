@@ -1,3 +1,4 @@
+import { User, Zap, TrendingUp, FileText, Calculator } from 'lucide-react'
 export const agents = {
     customer: {
       name: "Customer Support Agent",

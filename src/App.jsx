@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
+
+
 import { 
   MessageCircle, 
   ShoppingCart, 
@@ -151,6 +153,7 @@ const RetailAIAgent = () => {
   };
 
   useEffect(() => {
+    console.log('RetailAIAgent mounted');
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
